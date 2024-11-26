@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SakuyoTxtAdvApp.Resources.Styles.SakuyoStyles">
+    <Style x:Key="sakuyo-button" TargetType="Button">
+        <Setter Property="HorizontalOptions"
+                        Value="Center" />
+        <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+        <Setter Property="BorderColor"
+                        Value="Lime" />
+        <Setter Property="CornerRadius"
+                        Value="5" />
+        <Setter Property="BorderWidth"
+                        Value="5" />
+        <Setter Property="WidthRequest"
+                        Value="200" />
+        <Setter Property="TextColor"
+                        Value="Teal" />
+    </Style>
+
+    <Style x:Key="sakuyo-text" TargetType="Label">
+        <Setter Property="HorizontalOptions"
+                    Value="Center" />
+        <Setter Property="VerticalTextAlignment"
+                    Value="Center" />
+        <Setter Property="FontSize"
+                    Value="12" />
+    </Style>
+</ResourceDictionary>

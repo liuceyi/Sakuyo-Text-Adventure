@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SakuyoTxtAdvApp
+build_property.ProjectDir = D:\Programming\C# Project\SakuyoTxtAdvApp\
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/Resources/Styles/SakuyoStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.Resources.Styles.SakuyoStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\SakuyoStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\SakuyoStyles.xaml
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/Views/BattlePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.Views.BattlePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BattlePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BattlePage.xaml
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/Views/IndexPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.Views.IndexPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\IndexPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\IndexPage.xaml
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/Views/PlayerPanel.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.Views.PlayerPanel.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PlayerPanel.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PlayerPanel.xaml
+
+[D:/Programming/C\# Project/SakuyoTxtAdvApp/Views/SavePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SakuyoTxtAdvApp.Views.SavePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SavePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SavePage.xaml

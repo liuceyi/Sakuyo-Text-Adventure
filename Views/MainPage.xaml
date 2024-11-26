@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SakuyoTxtAdvApp.Views.MainPage"
+             Title="Home"
+             >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="主菜单"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+
+            <Button
+                x:Name="NewGameBtn"
+                Text="新游戏"
+                Clicked="NewGameBtnClicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="LoadGameBtn"
+                Text="读取"
+                Clicked="LoadGameBtnClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

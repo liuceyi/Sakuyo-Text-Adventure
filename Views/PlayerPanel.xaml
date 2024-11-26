@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SakuyoTxtAdvApp.Views.PlayerPanel"
+             xmlns:models="clr-namespace:SakuyoTxtAdvApp.Models"
+             xmlns:viewmodels="clr-namespace:SakuyoTxtAdvApp.ViewModels"
+             Title="PlayerPanel">
+    <ScrollView Margin="20">
+        <VerticalStackLayout>
+            <Label 
+            Text="{Binding Name}"
+            Style="{StaticResource sakuyo-text}"
+            HorizontalOptions="Start" />
+            <Grid Padding="10" ColumnDefinitions="30,100" ColumnSpacing="5" VerticalOptions="Center">
+                <Label
+            Text="XP"
+            Style="{StaticResource sakuyo-text}"
+            HorizontalOptions="Start" />
+                <Label Text="{Binding XPStr}" Grid.Column="1" Style="{StaticResource sakuyo-text}"/>
+            </Grid>
+            <Grid Padding="10" ColumnDefinitions="30,100" ColumnSpacing="0" VerticalOptions="Center">
+                <Label
+                Text="等级"
+                Style="{StaticResource sakuyo-text}"
+                HorizontalOptions="Start" />
+                <Label Text="{Binding StageStr}" Grid.Column="1" Style="{StaticResource sakuyo-text}"/>
+            </Grid>
+            <Label
+            Text="技能栏"
+            Style="{StaticResource sakuyo-text}"
+            HorizontalOptions="Start" />
+            <CollectionView x:Name="skillsCollection"
+            ItemsSource="{Binding Skills}"
+            Margin="10"
+            ItemsLayout="VerticalGrid, 4"
+            VerticalScrollBarVisibility="Never"
+            MaximumWidthRequest="1000" >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Button Text="{Binding ObName}" Clicked="LearnSkillButton_Clicked" WidthRequest="180" HeightRequest="30" FontSize="11"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
